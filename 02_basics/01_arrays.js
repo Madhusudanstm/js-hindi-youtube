@@ -29,6 +29,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 console.log("A ", myArr);
 
 const myn1 = myArr.slice(1, 3)
+// slice does not affect the original array content
 
 console.log(myn1);
 console.log("B ", myArr);
@@ -37,3 +38,4 @@ console.log("B ", myArr);
 const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr);
 console.log(myn2);
+// splice change the original array content by removing items splice from original array
